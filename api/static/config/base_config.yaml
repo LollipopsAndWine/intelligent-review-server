@@ -1,0 +1,12 @@
+BaseConfig: &base
+  DATABASE_URI: "mysql+pymysql://root:be@MysqL@mysql:3306/irs"
+
+DevelopmentConfig:
+  <<: *base
+
+ProductionConfig:
+  <<: *base
+
+# 当前使用配置
+run_config: "ProductionConfig"
+

@@ -1,0 +1,22 @@
+# Created by .ignore support plugin (hsz.mobi)
+log/
+log/*
+*.log
+**/__pycache__/
+.idea
+build/
+dist/
+aimp*.spec
+test.py
+mode/*
+file/dataset/*
+file/raw_data/*
+file/result/*
+file/try/*
+file/dataset_try/*
+file/test_data/*
+ses-rar.bat
+.env
+build.bat
+kbnlp/data
+dtm/
